@@ -3,16 +3,18 @@ import React from "react";
 
 export default function ImageSection() {
     return (
-        <div className="image w-full backdrop-blur-md bg-white/30 ... rounded-lg">
+        <div className="image w-full backdrop-blur-md bg-white/30 ... rounded-lg font-serif">
            <div className="heading  text-center">
-           <h2 className=" text-4xl text-zinc-900 font-extrabold tracking-tigh6 underline font-serif">BENEFITS</h2>
+           <h2 className=" text-4xl text-zinc-900  font-abold  underline font-serif">Benefits of Our Mala Making Machine
+           </h2>
             </div>
                 
                 <div className="benefits w-full flex flex-wrap justify-between">
                 <div className=" px-6 py-4 bg-transparent rounded-lg">
                     <ul>
-                    <h3 className="mb-3 text-2xl font-bold tracking-tight text-zinc-800"> Increased Efficiency</h3>
-                        <li className="mb-3 text-xl text-green-900" >Consistent Output: Produces a high volume of flowers quickly and consistently.</li>
+                    <h3 className="mb-3 text-2xl font-bold tracking-tight text-zinc-800"> Enhance Efficiency</h3>
+                        <li className="mb-3 text-xl text-green-900" >Dramatically reduces production time compared to manual methods, increasing output and profitability.
+                        </li>
                         <li className="mb-3  text-xl text-green-900"> Reduced Labor Costs: Minimizes the need for manual labor in flower production</li>
                    </ul>
                 </div>
