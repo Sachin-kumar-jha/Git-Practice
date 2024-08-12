@@ -1,53 +1,63 @@
 "use effect"
 import React from "react";
 
-export default function ImageSection() {
+export default function BenefitSection() {
     return (
-        <div className="image w-full backdrop-blur-md bg-white/30 ... rounded-lg font-serif">
+        <div className=" w-full backdrop-blur-md bg-white/30 ...  shadow-md rounded-lg[#f9fb71]">
            <div className="heading  text-center">
-           <h2 className=" text-4xl text-zinc-900  font-abold  underline font-serif">Benefits of Our Mala Making Machine
+           <h2 className=" text-3xl text-zinc-700  font-extrabold tracking-tight mt-4">Benefits of Our Mala Making Machine
            </h2>
             </div>
-                
-                <div className="benefits w-full flex flex-wrap justify-between">
-                <div className=" px-6 py-4 bg-transparent rounded-lg">
-                    <ul>
-                    <h3 className="mb-3 text-2xl font-bold tracking-tight text-zinc-800"> Enhance Efficiency</h3>
-                        <li className="mb-3 text-xl text-green-900" >Dramatically reduces production time compared to manual methods, increasing output and profitability.
-                        </li>
-                        <li className="mb-3  text-xl text-green-900"> Reduced Labor Costs: Minimizes the need for manual labor in flower production</li>
-                   </ul>
+             <div className="benefits mt-2 w-full flex flex-wrap justify-between">
+                <div className=" px-6 py-2 bg-transparent rounded-lg">
+                    <h3 className="mb-1  text-2xl font-bold tracking-tight text-zinc-800">Enhance Efficiency</h3>
+                    <p className="mb-1  text-xl text-green-900" >Dramatically reduces production time compared to manual methods, increasing output and profitability.</p>
                 </div>
 
-                <div className=" px-6 py-4 bg-transparent rounded-lg">
-                    <ul>
-                    <h3 className="mb-3 text-2xl font-bold tracking-tight text-zinc-800">Educational Opportunities</h3>
-                        <li className="mb-3 text-xl text-green-900" >Provides hands-on learning opportunities for plant biology and related fields.</li>
-                        <li className="mb-3  text-xl text-green-900">Exposure to advanced agricultural technology can inspire students to pursue careers in fields like agricultural engineering, biotechnology, environmental science, or horticulture.</li>
-                    </ul>
+                <div className=" px-6 py-2 bg-transparent rounded-lg">
+                <h3 className="mb-1  text-2xl font-bold tracking-tight text-zinc-800">Consistent Quality</h3>
+                <p className="mb-1  text-xl text-green-900" >Ensures uniform mala quality, meeting the highest standards of craftsmanship.
+                </p>
+                </div>
+                <div className=" px-6 py-2 bg-transparent rounded-lg">
+                <h3 className="mb-1  text-2xl font-bold tracking-tight text-zinc-800">Reduced Labor Costs</h3>
+                <p className="mb-1  text-xl text-green-900">Minimizes reliance on manual labor, leading to significant cost savings.
+                </p>
                 </div>
 
-                <div className=" px-6 py-4 bg-transparent rounded-lg">
-                    <ul>
-                    <h3 className="mb-3 text-2xl font-bold tracking-tight text-zinc-800">Cost Savings</h3>
-                        <li className="mb-3 text-xl text-green-900" >Lower Production Costs: Reduces expenses associated with manual cultivation, such as labor and land.</li>
-                        <li className="mb-3  text-xl text-green-900">Economies of Scale: Enables bulk production which can lower per-unit costs.</li>
-                    </ul>
-                </div>
-                <div className=" px-6 py-4 bg-transparent rounded-lg">
-                    <ul>
-                    <h3 className="mb-3 text-2xl font-bold tracking-tight text-zinc-800">Enhanced Customization</h3>
-                        <li className="mb-3 text-xl text-green-900" >Variety Options: Allows for the production of various flower types and colors according to demand.</li>
-                        <li className="mb-3  text-xl text-green-900">Custom Designs: Can produce flowers in specific patterns or designs for special events.</li>
-                    </ul>
+               <div className="px-6 py-2 bg-transparent rounded-lg">
+               <h3 className="mb-1  text-2xl font-bold tracking-tight text-zinc-800">Scalability</h3>
+               <p className="mb-1  text-xl text-green-900"> Easily adapts to increased demand by scaling up production without compromising quality.
+               </p> 
                 </div>
 
-               <div className=" px-6 py-4 bg-transparent rounded-lg">
-                    <ul>
-                    <h3 className="mb-3 text-2xl font-bold tracking-tight text-zinc-800">Innovation and Technology</h3>
-                        <li className="mb-3 text-xl text-green-900" >Advanced Techniques: Incorporates cutting-edge technology for better growth and production methods.</li>
-                        <li className="mb-3  text-xl text-green-900">Research and Development: Drives innovation in the floral industry, potentially leading to new flower varieties and cultivation methods.</li>
-                    </ul>
+                <div className="px-6 py-2 bg-transparent rounded-lg">
+               <h3 className="mb-1  text-2xl font-bold tracking-tight text-zinc-800">Preservation of Tradition</h3>
+               <p className="mb-1  text-xl text-green-900">Maintains the essence of traditional mala making while incorporating modern technology.
+               </p> 
+                </div>
+
+                <div className="px-6 py-2 bg-transparent rounded-lg">
+               <h3 className="mb-1  text-2xl font-bold tracking-tight text-zinc-800">Ergonomic Benefits</h3>
+               <p className="mb-1  text-xl text-green-900">Improves working conditions for artisans by reducing physical strain.
+               </p> 
+                </div>
+
+                <div className="px-6 py-2 bg-transparent rounded-lg">
+               <h3 className="mb-1  text-2xl font-bold tracking-tight text-zinc-800">Waste Reduction</h3>
+               <p className="mb-1  text-xl text-green-900">Minimizes flower wastage through precise and efficient handling.
+               </p> 
+                </div>
+                <div className="px-6 py-2 bg-transparent rounded-lg">
+               <h3 className="mb-1  text-2xl font-bold tracking-tight text-zinc-800"> Customization</h3>
+               <p className="mb-1  text-xl text-green-900">Offers flexibility in creating various mala designs and lengths to cater to diverse customer preferences.
+               </p> 
+                </div>
+                <div className="px-6 py-2 bg-transparent rounded-lg">
+               <h3 className="mb-1  text-2xl font-bold tracking-tight text-zinc-800"> Brand Differentiation</h3>
+               <p className="mb-1  text-xl text-green-900">Sets your business apart from competitors by offering a technologically advanced solution.Autoflora Revolutionizing Fresh Flower Mala Making Machine 
+               Our machine redefines traditional craftsmanship. With precision and speed, we automate the creation of exquisite malas, preserving tradition while increasing efficiency.
+               </p> 
                 </div>
             </div>
             </div>

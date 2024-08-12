@@ -9,7 +9,7 @@ import linkedin from "../public/linkedin.png"
 import youtube from "../public/youtube.png"
 export default function Footer(){
     return(
-        <footer className="flex flex-col w-full space-y-10 justify-center backdrop-blur-lg bg-white/30 ... rounded-md mt-8">
+        <footer className="flex flex-col w-full footer space-y-10 justify-center backdrop-blur-lg bg-white/30 ...  rounded-lg[#f9fb71] mt-8">
     <div className="flex justify-center space-x-5 mt-5 ">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
             <Image src={facebook} width={40} height={40} alt="facebook image"/>
