@@ -9,7 +9,7 @@ export default function Contact(){
         <div className="grid grid-cols-1 sm:grid-cols-2 sm:grid-cols-3  md:grid-cols-3 gap-8 mt-8 animate-fadeIn">
         <div className="p-4 shadow-lg rounded-lg[#f9fb71] hover:bg-green-300 transition-colors">
             <h3 className="text-xl text-zinc-800 font-bold">Name</h3>
-            <p className="text-gray-700 mt-2">HustlerMahesh</p>
+            <p className="text-gray-700 mt-2">Mahesh Suman</p>
           </div>
           <div className="p-4 shadow-lg rounded-lg[#f9fb71] hover:bg-green-300 transition-colors">
             <h3 className="text-xl text-zinc-800 font-bold">Call Us</h3>

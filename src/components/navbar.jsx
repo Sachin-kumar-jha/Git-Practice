@@ -1,5 +1,5 @@
 "use client"
-
+import logo from "../public/logo.jpg"
 import React from "react";
 
 import {Navbar, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@nextui-org/react";
@@ -21,7 +21,7 @@ export default function Nave() {
 <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-[#f5c000] bg-opacity-75  md:rounded-[12rem] sm:rounded-[12rem]">
 <NavbarContent> 
   <NavbarItem>
-   <Image className="w-10 h-10 cover rounded-full shadow-md  " src="https://images.unsplash.com/photo-1476209446441-5ad72f223207?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width={500}
+   <Image className="w-10 h-10  object-cover hover:object-contain  rounded-full shadow-md " src={logo} width={500}
       height={500} alt="Brand icon"/>
   </NavbarItem>
         <NavbarMenuToggle
@@ -53,7 +53,7 @@ export default function Nave() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu className="  sm:w-1/4 px-10 ">
+      <NavbarMenu className="sm:w-1/4 px-10 h-[40px] ">
         {menuItems.map((item, index) =>(
           <NavbarMenuItem  key={`${item}-${index}`}>
             <Link
