@@ -32,7 +32,7 @@ export default function Nave() {
       <NavbarContent className="hidden sm:flex gap-4 " justify="between">
         <NavbarItem className="text-black font-semibold">
           <Link color="foreground" href="#">
-           About Us
+           About me
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
